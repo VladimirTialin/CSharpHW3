@@ -13,14 +13,14 @@ void SearchForCoordinates(int[] CoordinatesA, int [] CoordinatesB)
 }
 
 int [] arr1 = new int[3];
-Console.WriteLine("Ввеедите координаты первой точки A (x, y, z): ");
+Console.WriteLine("Введите координаты первой точки A (x, y, z): ");
     for (int i = 0; i < arr1.Length; i++)
     {
         int number = Convert.ToInt32(Console.ReadLine());
         arr1[i] = number; 
     }
     int [] arr2 = new int[3];
-Console.WriteLine("Ввеедите координаты первой точки B (x, y, z): ");
+Console.WriteLine("Введите координаты первой точки B (x, y, z): ");
     for (int i = 0; i < arr2.Length; i++)
     {
         int number = Convert.ToInt32(Console.ReadLine());

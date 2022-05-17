@@ -7,11 +7,11 @@ void SearchForCoordinates(int xA,int yA,int zA, int xB, int yB, int zB)
     double result = Math.Sqrt((xA-xB)*(xA-xB)+(yA-yB)*(yA-yB)+(zA-zB)*(zA-zB));
         Console.WriteLine($"A ({xA}, {yA}, {zA}); B ({xB}, {yB}, {zB}) - > {Math.Round(result,2)}");
 }
-Console.WriteLine("Ввеедите координаты первой точки A (x, y, z): ");
+Console.WriteLine("Введите координаты первой точки A (x, y, z): ");
 int xA =Convert.ToInt32(Console.ReadLine());
 int yA =Convert.ToInt32(Console.ReadLine());
 int zA =Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Ввеедите координаты первой точки B (x, y, z): ");
+Console.WriteLine("Введите координаты первой точки B (x, y, z): ");
 int xB =Convert.ToInt32(Console.ReadLine());
 int yB =Convert.ToInt32(Console.ReadLine());
 int zB =Convert.ToInt32(Console.ReadLine());
