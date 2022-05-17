@@ -5,7 +5,7 @@
 5 -> 1, 8, 27, 64, 125
 */
 
-Console.Write("Введите число:");
+Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.Write($"{number} - > ");
 if (number > 0)
